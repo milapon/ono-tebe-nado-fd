@@ -2,13 +2,12 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-top: 83px;
+  padding-top: 89px;
   padding-bottom: 96px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: red;
+  background-color: white;
   height: 100%;
-margin-top: 9px;
 }
 
 .header__menu {
