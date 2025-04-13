@@ -3,49 +3,44 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding-top: 92px;
+  padding-bottom: 96px;
   padding-left: 50px;
-  padding-bottom: 95px;
-  padding-right: 50.52px;
+  padding-right: 50px;
 }
 
 .header__menu {
   /* контейнер навигации */
   display: flex;
-  width: 391.4786376953125px;
-  height: 22.00001335144043px;
-  top: 133px;
-  left: 50px;
+  width: 100%;
 }
 
 .header__links-list {
   /* cписок ссылок */
-  display: flex;
-  justify-content: space-between;
   gap: 33px;
   font-family: Raleway;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
+  justify-content: space-between;
   list-style: circle;
+  display: flex;
 }
 
 .header__links-list-item {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  justify-content: space-between;
+  justify-content: start;
+  font-size: 18px;
 }
 
 .header__link {
-  list-style: circle;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
-  text-decoration: none;
 }
 
 .header__logo {
-  justify-self: center;
+  display: block;
+  align-items: center;
+  justify-items: center;
 }
 
 .header__logo-image {
@@ -53,7 +48,7 @@
   height: 105px;
 }
 
-.header__address {
+.address {
   justify-self: end;
   font-style: normal;
   font-family: Raleway;
@@ -62,12 +57,17 @@
   line-height: 24.3px;
   letter-spacing: 0%;
   padding-right: 35px;
+  width: 240;
+  height: 98;
+  top: 95px;
+  left: 810px;
+  border-width: 1px;
 }
 
-.address {
+.header__address {
   color: black;
   text-decoration: none;
-  font-style: normal;
+  font-style: 0;
 }
 
 .cover {
@@ -93,7 +93,6 @@
   font-weight: 600;
   letter-spacing: 30px;
   line-height: 115%;
-  margin-top: 1px;
 }
 
 .aligned-text {
@@ -108,7 +107,7 @@
   font-size: 100px;
   text-transform: uppercase;
   line-height: 155%;
-  margin-left: 30px;
+  padding-left: 30px;
 }
 
 .aligned-text_right {
@@ -116,32 +115,27 @@
   font-family: Raleway;
   font-weight: 700;
   font-size: 100px;
-  line-height: 114.99999999999999%;
+  line-height: 115%;
   text-transform: uppercase;
-  margin-left: 614px;
+  padding-left: 614px;
 }
 
 .cover__description {
   display: flex;
   justify-content: space-between;
-  height: 51px;
+  align-items: center;
   z-index: 2;
-  margin-top: 107px;
+  padding-top: 106px;
 }
 
 .cover__description-text {
   position: relative;
-  margin-top: 0px;
   z-index: 2;
   display: flex;
-  flex-direction: start;
-  align-items: center;
-  justify-content: space-between;
   font-size: 22px;
   font-style: normal;
   word-spacing: 19px;
   text-transform: uppercase;
-  font-weight: 400;
 }
 
 .letter-spacing-extended {
@@ -160,24 +154,22 @@
   font-weight: 500;
   font-size: 22px;
   line-height: 100%;
-  text-align: center;
   text-transform: uppercase;
-  width: 256;
+  width: 257px;
+  height: 51px;
   padding-left: 30px;
   padding-right: 30px;
-  border-width: 1px;
 }
 
 .lots {
-  margin-top: 183px;
-  margin-right: 24px;
-  margin-bottom: 120px;
-  margin-left: 24px;
+  padding-top: 185px;
+  padding-right: 24px;
+  padding-bottom: 120px;
+  padding-left: 24px;
 }
 
 .lots__heading {
   padding-left: 40px;
-  padding-bottom: 27px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 40px;
@@ -191,7 +183,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
-  margin-bottom: 3%;
+  padding-top: 27px;
+  padding-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -267,7 +260,7 @@
 .about {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 25px;
   background-color: #fff;
   padding: 1px 24px 0px 24px;
 }
@@ -310,8 +303,8 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
-  padding-top: 100px;
+
+  padding-top: 103px;
   font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
@@ -329,7 +322,7 @@
   padding-left: 50px;
   padding-bottom: 82px;
   padding-right: 50px;
-  padding-top: 160px;
+  padding-top: 180px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -340,10 +333,15 @@
   text-decoration: underline;
   text-underline-offset: 4px;
   justify-content: space-between;
-  
 }
 
 .footer__address {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0%;
+  font-style: normal;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
