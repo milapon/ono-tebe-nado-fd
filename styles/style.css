@@ -6,6 +6,9 @@
   padding-bottom: 96px;
   padding-left: 50px;
   padding-right: 50px;
+  background-color: brown;
+  height: 100%;
+margin-top: 7px;
 }
 
 .header__menu {
@@ -342,11 +345,6 @@
   line-height: 24.3px;
   letter-spacing: 0%;
   font-style: normal;
-  font-family: Raleway;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24.3px;
-  letter-spacing: 0%;
 }
 
 .footer__menu-list,
