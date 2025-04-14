@@ -7,7 +7,7 @@
   padding-left: 50px;
   padding-right: 50px;
   background-color: white;
-  height: 293px;
+  
 }
 
 .header__menu {
@@ -59,10 +59,6 @@
   line-height: 24.3px;
   letter-spacing: 0%;
   padding-right: 35px;
-  width: 240;
-  height: 98;
-  top: 95px;
-  left: 810px;
   border-width: 1px;
 }
 
@@ -74,10 +70,12 @@
 
 .cover {
   position: relative;
-  background: url("/ono-tebe-nado-fd/images/cover.jpg") center/cover no-repeat;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
   padding: 165px 50px 50px 50px;
   color: white;
-  height: 757px;
+  background-position: center;
+  background-clip: inherit;
 }
 
 .overlay {
@@ -139,6 +137,7 @@
   font-style: normal;
   word-spacing: 19px;
   text-transform: uppercase;
+  letter-spacing: -0.1px;
 }
 
 .letter-spacing-extended {
@@ -165,14 +164,16 @@
 }
 
 .lots {
+    display: flex;
+    flex-direction: column;
     padding-top: 185px;
     padding-right: 24px;
     padding-bottom: 120px;
     padding-left: 24px;
-    height: 723;
   }
   
   .lots__heading {
+    justify-content: start;
     padding-left: 40px;
     font-family: Raleway;
     font-weight: 700;
@@ -183,6 +184,7 @@
   }
   
   .lots__card-list {
+    justify-content: center;
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -239,6 +241,7 @@
   
   .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
+    background-clip:border-box;
   }
   
   .card_type_book {
@@ -251,24 +254,21 @@
   
   .lots__look-more-link {
     padding-left: 40px;
-    padding-top: 30px;
     font-family: Raleway;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 0%;
     text-decoration: underline;
     text-underline-offset: 4px;
-    justify-content: space-between;
+    justify-content: end;
   }
   
-
 .about {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   background-color: #fff;
   padding: 1px 24px 0px 24px;
-  height: 595px;
   margin-bottom: 180px;
   
 }
@@ -311,7 +311,6 @@
 .about__text {
   display: flex;
   flex-direction: column;
-
   padding-top: 103px;
   font-family: Raleway;
   font-weight: 400;
