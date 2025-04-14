@@ -187,7 +187,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
-    padding-top: 27px;
+    padding-top: 28px;
     padding-bottom: 30px;
   }
   
@@ -269,6 +269,7 @@
   background-color: #fff;
   padding: 1px 24px 0px 24px;
   height: 595px;
+  margin-bottom: 180px;
   
 }
 
@@ -329,7 +330,7 @@
   padding-left: 50px;
   padding-bottom: 82px;
   padding-right: 50px;
-  padding-top: 180px;
+  
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
